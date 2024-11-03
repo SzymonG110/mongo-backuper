@@ -1,0 +1,19 @@
+{
+  "name": "db-backuper",
+  "version": "1.0.0",
+  "description": "Create and load MongoDB database backup to excel or json format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Szymon Górnikowski",
+    "url": "https://gornikowski.pl"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "inquirer": "^12.0.1",
+    "mongoose": "^8.8.0"
+  }
+}
